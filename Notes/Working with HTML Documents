@@ -3,6 +3,8 @@
     -->Appears in the webpage tab
 <meta>
     -->Where we can provide additional information
+        <meta name="description" content="A simple introduction to HTML">
+        <meta name="author" content="Matt Milner">
 <script>
     -->Where we interact with the different elements in the page
 <style>
@@ -11,3 +13,17 @@
 <base>
     -->Can provide a "base" address from which all other links we create can derive from
 
+-->Look into Bootstrap for CSS stuff
+-->Comments
+    <!---...stuff...--->
+-->The "!" lets the browser know that this is an instruction it must process
+    -->Same goes for the "!" in "!DOCTYPE"
+-->Attributes: additional information about that element
+
+****The Body Element****
+-->Text
+-->Lists
+-->Links
+-->Tables
+-->Images
+-->Text in the body but not in a <p> will show up on the same line
