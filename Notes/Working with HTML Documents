@@ -1,0 +1,13 @@
+****The Head Element****
+<title>
+    -->Appears in the webpage tab
+<meta>
+    -->Where we can provide additional information
+<script>
+    -->Where we interact with the different elements in the page
+<style>
+    -->Where we can provide additional information on styling the elements
+<link>
+<base>
+    -->Can provide a "base" address from which all other links we create can derive from
+
