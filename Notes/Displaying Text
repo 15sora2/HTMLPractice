@@ -1,0 +1,42 @@
+****Displaying Text****
+--><H1> Heading should only appear once per page
+-->Block Elements (i.e. div)
+    -->Conatainers to group other elements
+    -->May contain block or inline elements
+
+-->Inline Elements (i.e. span)
+    -->Tells the page that this text is special in some sort of way
+
+--><div> identifies a section of a page; "divides" the page into sections
+--><span>
+    -->It doesn't make the specified text look different. It simply marks the text as "special"
+    -->Can add a class to the span, if desired
+
+****Headings and Block Elements****
+
+****Text Breaking and Whitespace****
+--><pre>
+    -->Tells the browser that this content has been pre-formated and to respect that styling of the element.
+--><hr/>
+    -->Places a horizontal line across the page
+    -->Not used as much these days. This would just be done in the CSS
+-->Use CSS to manage the spacing between and around elements
+--><br/>
+-->Will start the texc on the next line without the space between that you would get when using the paragraph tag
+--> &copy = copyright symbol
+
+****Reference Text****
+<sub>, <sup>: superscript, subscript
+<cite>: citing another work/person
+<abbr>: abbreviation
+<code>, <samp>: specify the content as code, giving it specific style
+<q>: wrape content in quotations
+
+****Semantic Meaning****
+-->div, article, section, footer, header, nav
+-->Can use article instead of a div
+    -->identifies content as an article
+    -->Should only be seen once per page
+-->section is similar to div
+    -->identifies the content as a section 
+    -->A section can have div's
