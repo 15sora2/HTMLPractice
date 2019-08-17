@@ -1,0 +1,22 @@
+****Types of Lists***
+-->Unordered lists
+-->Ordered lists
+-->Definition lists
+    -->Contains a lists of pairs of items
+
+****Creating Lists****
+<dl>: definition list
+<dd>: definition definition
+-->indents the item definition
+-->Don't see them used very often
+
+****Modern List Uses****
+-->Nav bar items
+-->Product color selection
+-->This of the different semantics (nav bar, article, section, etc)
+    and how a list may be used in them
+-->A breadcrumb, a bootstrap styling
+    <ol class="breadcrumb">
+        <li class"breadcrumb-item">Wired Brain Coffee
+        <li class"breadcrumb-item">Recipes
+        <li class"breadcrumb-item active">Hot Cocoa
