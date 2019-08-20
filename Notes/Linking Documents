@@ -1,0 +1,20 @@
+--><a> tag: "anchor" tag
+<a href="linkURL">
+
+-->href: source anchor
+--><div id="idValue">
+    -->Implicit anchor
+
+****Link Concepts****
+-->To set up an anchor(link) that will take you to a place in the current page
+    <a name="topOfPage"></a> //This goes to the place you want the page to jump to
+    <a href="#topOfPage">Back To Top</a> //Place the link where you want on the page
+        -->Remember the # symbol!
+
+****Additional Link Attributes****
+-->target: provides information about where we want the link to open
+    -->target="_blank": opens link in new tab
+-->rel: relationship to the particular document
+    -->rel="noreferrer noopener"
+        -->Protects the page that the user clicked from from malicious attacks
+    
