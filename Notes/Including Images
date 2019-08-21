@@ -1,0 +1,30 @@
+****Understanding Images in HTML****
+-->Consider using images that are closer to the size you need instead of
+    performing drastic changes to the image's size
+        -->The browser will still render the big (or small) image to make it fit your
+            size specifications. This may lead to pretty ugly images (blurry, stretched, etc.)
+            -->It may also slow down the speed of the page to make time for rendering
+        -->Having multiple versions of an image may be more effecient (a jpg and png of the same image, each used for
+            different things)
+
+****Demo: Adding Images to a Document****
+<img src="fsfdaf" alt="text that shows if image doesnt">
+
+
+****Defining Alternate Images****
+
+
+****Demo: Alternate Images w/ ImageSet****
+srcset: provides a list of images that the image can choose from
+    srcset="imageLink1" 500w, "imageLink2" 690w
+        -->We give it the image link w/ the size we want it to be
+
+
+****Using the Picture Element****
+
+
+****Demo: Picture****
+
+
+
+****Summary****
