@@ -1,0 +1,18 @@
+****Understanding HTML Tables****
+-->Tables are for DATA, not pictures or "table of contents"
+
+****Defining HTML Tables****
+-Caption
+-Header
+-Body
+-Footer
+
+<tr> - rows
+    <th> - table header
+    <td> - table data
+colspan/rowspan - allows for the data cell to span over multiple colomns or rows
+
+
+****Formatting Tables****
+-->Use CSS to style Tables
+    -Control spacing, borders, padding, etc.
